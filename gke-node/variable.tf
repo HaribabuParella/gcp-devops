@@ -1,10 +1,10 @@
 
 variable "google_project_id" {
   description = "- (Required)  Google account project id."
-  default = "midevlab"
+  default = "hari-cloud-first-project"
 }
 variable "google_region" {
-  default = "us-central1-a"
+  default = "us-central1-c"
   description = "- (Required) Google region where the cluster will be deployed."
 }
 variable "cluster_version" {
@@ -35,7 +35,7 @@ variable "subnetwork" {
 }
 
 variable "machine_type" {
-  default = "n1-standard-1"
+  default = "e2-medium"
   description = "- (Optional) The name of a Google Compute Engine machine type. Defaults to n1-standard-1. "
 }
 
