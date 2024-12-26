@@ -1,7 +1,7 @@
 
 variable "google_project_id" {
   description = "- (Required)  Google account project id."
-  default = "hari-cloud-first-project"
+  default = "hari-gcp-learning-project"
 }
 variable "google_region" {
   default = "us-central1-c"
